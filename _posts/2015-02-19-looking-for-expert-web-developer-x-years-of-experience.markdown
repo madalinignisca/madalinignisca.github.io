@@ -25,4 +25,4 @@ I'm somewhere to Mid-level. Of course I'm looking for a Mid-level company.
 
 Anyway, when bumping into those "unknown" companies that seek the ultimate developer willing to do charity, how do you greet them?
 
-PS: I found this discussion on Reddit in which I agree with most of the opinions: [Having trouble finding quality PHP employers: A rebuttal.](http://www.reddit.com/r/PHP/comments/mmvn2/having_trouble_finding_quality_php_employers_a/).
+PS: I found this discussion on Reddit in which I agree with most of the opinions: [Having trouble finding quality PHP employers: A rebuttal](http://www.reddit.com/r/PHP/comments/mmvn2/having_trouble_finding_quality_php_employers_a/).
