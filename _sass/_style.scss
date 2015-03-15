@@ -4,3 +4,12 @@ img.profile {
     height: auto;
     float: right;
 }
+
+.post-share {
+    ul {
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+}
