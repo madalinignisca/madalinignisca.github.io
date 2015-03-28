@@ -2,7 +2,7 @@
 layout: post
 title:  "Is there any version manager for Nodejs?"
 date:   2015-03-28 07:47:27
-categories: problems, issues
+categories: problems issues
 ---
 
     ```
