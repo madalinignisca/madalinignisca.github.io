@@ -2,7 +2,7 @@
 title: Gabriel Ignisca
 email: gabriel.ignisca@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Ramblings by Gabriel Ignisca, a Romanian passionate Web Developer. Lives and works in UK for <a href="http://www.digitaljunkie.com/" title="A digital agency you can trust!">Digital Junkie</a>.
+  Ramblings by Gabriel Ignisca, a Romanian passionate Web Developer. Lives and works in UK for Digital Junkie.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gabe.me.uk" # the base hostname & protocol for your site
 twitter_username: 16nsk
