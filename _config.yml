@@ -14,3 +14,10 @@ kramdown:
   input: GFM
   enable_coderay: true
 highlighter: rouge
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- rouge
