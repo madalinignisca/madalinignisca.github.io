@@ -75,9 +75,136 @@ The content from "id_rsa.pub" is to be used for many web services like Github, G
 
 ## REMOTE Setup (Digital Ocean one thing to do)
 
-On [Digital Ocean](http://goo.gl/idAtX4) after we have setup an account (you must have at least a first time payment of $5 to use their services), we need to create a special secret HASH key to use it with Docker Machine to access their API, as this will provide control to any of the instances hosted in that account.
+On [Digital Ocean](http://goo.gl/idAtX4) after we have setup an account (you must have at least a first time payment of $5 to use their services), we need to create a special secret HASH key to use it with Docker Machine to access their API, as this will provide control to any of the instances hosted in that account. The key must be copied as you can't retrieve it anymore after.
 
 Once the key is generated, **make sure** that you will save it to a private note that you can access anytime you will need it. I use for example [Keep](http://keep.google.com/) from Google.
+
+## Create a "recipe" for your project
+
+Hosting with Docker gives us the possibility to separate services and scale to multiple instances very easy.
+
+To do this, I love the Docker Compose, previously know as Fig, a tool that comes with Docker and helps maintaining multiple instances related to the project you work on.
+
+Every command will be run from the Git Bash terminal
+
+### How do I prepare my projects:
+
+I keep my projects in one folder, under my user account: "C:\\Users\\\<gabb3\>\\Workspace\\projects".
+
+For our tutorial, I'll create a few demo sites using WordPress, Concrete5, Joomla, Drupal and Magento, so you will really see the simplicity of hosting PHP applications and be able to scale them very easy when a website would require more power to handle a bigger spike in traffic.
+
+### WordPress Docker recipe:
+
+In your projects folder create a new directory named as you wish. Here we will call it "WordPress".
+
+``` bash
+cd /c/Users/<gabb3>/Workspace/projects/
+mkdir -p WordPress
+```
+
+Now open this folder with your favorite Code Editor (I recommend [Atom](http://atom.io/) in case that you still research for a good quality code editor).
+
+We need to create first a "Dockerfile" that will be used to build the main web server. To keep it simple for WordPress, we will use the official [WordPress](https://registry.hub.docker.com/_/wordpress/) with Apache. Put the following code in the file:
+
+``` Yaml
+FROM wordpress:4.1.1-apache
+
+RUN echo "upload_max_filesize = 16M" > /usr/local/etc/php/conf.d/custom.ini \
+    && echo "post_max_size = 16M" >> /usr/local/etc/php/conf.d/custom.ini \
+    && a2enmod expires headers rewrite
+```
+
+Line 1 is telling Docker that we want to build a custom image from WordPress
+Lines 3 to 4 are creating a custom ini file for php that will set the max upload size to 16MB. Adjust to your needs.
+Line 5 will enable in Apache 3 modules necessary for Pretty urls and expiration of served files as we will want it.
+
+Great! Now let's create the Compose file that will be used to create and handle our instances. Create a new file named "docker-compose.yml".
+
+``` Yaml
+db:
+  image: mariadb:10.0.17
+  environment:
+    - MYSQL_ROOT_PASSWORD=<root_password>
+    - MYSQL_USER=<db_user>
+    - MYSQL_PASSWORD=<db_password>
+    - MYSQL_DATABASE=<db_database>
+  # ports:
+  #   - "10036:3306"
+  cpu_shares: 144
+  mem_limit: 352m
+
+storage:
+  image: debian:wheezy
+  volumes:
+    - /var/www/html/wp-content/uploads
+  cpu_shares: 16
+  mem_limit: 32m
+
+www:
+  build: .
+  hostname: <www>
+  domainname: <www.domain.tld>
+  environment:
+    - VIRTUAL_HOST=<domain.tld>,<www.domain.tld>
+    - WORDPRESS_DB_USER=<db_user>
+    - WORDPRESS_DB_PASSWORD=<db_password>
+    - WORDPRESS_DB_NAME=<db_name>
+  volumes_from:
+    - storage
+  ports:
+    - "10080:80"
+  links:
+    - db:mysql
+  cpu_shares: 320
+  mem_limit: 640m
+```
+
+This config is optimized for a production setup that is very safe. Now let me explain each line and what changes you should make per your needs.
+
+**"db"**:
+
+* we use the image **mariadb** and set an exact version as we want to manually test when we really need to upgrade it. As long as there are no security mandatory updates, you are safe to stay with the version you choose at the start of a project. **Upgrades must be always tested!**
+* **environment**: all are required to initialize the database. Change what's in \<...\> with your own wish. I personally use random generated strings here with only small letters and numbers. Ugh, I'm a security freak.
+* commented **ports** statement: this would expose the database to the master host so we could access it. This will be detailed in another section of the tutorial.
+* **cpu_shares**: this will tell Docker how much of the CPU to use. The value can be from 1 to 1024 where 1024 is 100% of it.
+* **mem_limit**: the maximum amount of ram to be used by the instance. I'm setting this two values as I want 100% control on the host's resources in case that a website goes mad from many reasons and the others are not affected at all.
+
+**"storage"**:
+
+* this little container is to be used for a special reason. If we would need to scale up for high traffic spikes, we need to make sure that the uploads are shared between all web servers so we won't get 404 on static resources. It complicates things and I will explain how to handle in a separate tutorial.
+
+**"www"**:
+
+* **build**: simple, build from the Dockerfile that we prepared in the root of the project.
+* **hostname** and **domainname**: are used to set the instance proper hostname. Change as needed to your website.
+* **environment**:
+  * We will use **VIRTUAL_HOST** for a proxy server that we will setup in front of all projects hosted in one master machine. Detailed later.
+  * **WORDPRESS_...** are used to set the WordPress database settings and MUST be identical to what we used in the **db**
+  * **volumes_from** will attach our common file system for WordPress uploads.
+  * **ports** will expose our web server to the master host so the website can be accessed.
+  * **links** is setting a network communication channel to the database and let's our webserver find the database on the host "mysql". This way we don't care about it's IP which can change.
+
+As you can see I've set certain values to the CPU and RAM usage to be safe and you can adjust them as required. This depends a lot on how many plugins you add and how your WordPress theme is done. This values are very safe for a basic setup and using a few plugins I prefer like Jetpack, WordPress SEO, Google Analytics for WordPress and even BuddyPress with bbPress. For better performance instead of increasing this values, a cache instance with Memcached would be preferred as it would provide better speed and use less CPU and RAM.
+
+Now it's time to test our recipe and if all goes OK, we can provision it to [Digital Ocean](http://goo.gl/idAtX4).
+
+As we haven't done anything to docker to communicate with the remote machine that we haven't started yet, we will test it on our local workstation first.
+
+In GIT BASH run:
+
+``` bash
+$ boot2docker init
+$ docker-compose up
+```
+
+Line 1 is to initialize the Docker virtual machine for the first time. This is done once and we don't need it anymore after. Alternative we could use docker-machine but it goes beyond the scope of this first tutorial.
+Line 2 will start preparing the containers for the first time and start them if all goes ok.
+
+### CRITICAL TIP TO TAKE IN CONSIDERATION:
+
+> Never, never, never install, update or do actions that will alter the file structure in your WordPress instalation.
+> We will do this by altering Dockerfile so we can update all scaled web server instances at once or you'll just f**k the website.
+> If you intend to use only a single instance of the web server, then do anything you want, but still you may have problems upgrading the container at some point, or not...
 
 @TOBECONTINUED
 
