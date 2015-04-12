@@ -13,7 +13,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   enable_coderay: true
-highlighter: rouge
 
 gems:
 - jekyll-mentions
