@@ -4,7 +4,7 @@ title: "Publishing a blog using Jekyll"
 categories: jekyll, blog, publishing
 ---
 
-While many people prefer WordPress or other blog publishing platforms, I really enjoy simplicity and prefer to have a better option when it's about hosing a website.
+While many people prefer WordPress or other blog publishing platforms, I really enjoy simplicity and prefer to have a better option when it's about hosting a website.
 
 Static site generators have been available for a longer timeline then database driven web applications are.
 
