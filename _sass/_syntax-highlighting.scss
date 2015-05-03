@@ -3,7 +3,9 @@
  */
 .highlight {
     background: #fff;
-    @extend %vertical-rhythm;
+    font-family: $base-font-monospaced-family;
+    font-weight: $base-font-monospaced-weight;
+    font-style: $base-font-monospaced-style;
 
     .c     { color: #998; font-style: bold } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error

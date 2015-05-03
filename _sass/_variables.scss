@@ -1,0 +1,28 @@
+$base-font-size: 16px;
+$base-font-family: 'Source Sans Pro', sans-serif;
+$base-font-style: normal;
+$base-font-weight: 300;
+$base-font-monospaced-family: 'Source Code Pro', monospace;
+$base-font-monospaced-style: normal;
+$base-font-monospaced-weight: 400;
+$base-font-serif-family: 'Source Serif Pro', serif;
+$base-font-serif-style: normal;
+$base-font-serif-weight: 600;
+
+///////////////
+// Bootstrap //
+///////////////
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  $base-font-family;
+$font-family-serif:       $base-font-serif-family;
+$font-family-monospace:   $base-font-monospaced-family;
+
+$font-size-base:          $base-font-size;
+
+$headings-font-family:    $base-font-serif-family;
+$headings-font-weight:    $base-font-serif-weight;

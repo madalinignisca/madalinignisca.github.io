@@ -14,13 +14,25 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    // font-family: $base-font-family;
+    font-family: $base-font-family;
     font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    font-style: $base-font-style;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Set headings font
+ */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3 , .h4, .h5 {
+  font-family: $base-font-serif-family;
+  font-weight: $base-font-serif-weight;
+  font-style: $base-font-serif-style;
 }
 
 
@@ -75,16 +87,8 @@ li {
 }
 
 
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-}
-
 strong {
-  font-weight: 600;
+  font-weight: $base-font-weight;
 }
 
 /**

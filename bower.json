@@ -1,0 +1,25 @@
+{
+  "name": "16nsk.github.io",
+  "version": "0.1.0",
+  "homepage": "http://www.gabe.me.uk/",
+  "authors": [
+    "Gabriel Ignisca <gabriel.ignisca@outlook.com>"
+  ],
+  "description": "Gabe's personal blog",
+  "main": "index.html",
+  "keywords": [
+    "blogs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  }
+}

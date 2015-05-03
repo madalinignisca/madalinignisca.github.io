@@ -24,7 +24,7 @@ __Comments?__ Just use a 3<sup>rd</sup> party service like __Disquss__ or __Face
 
 __External informations?__ Well, many things could be obtained using __JavaScript__.
 
-![How I edit my Jekyll blog](https://www.evernote.com/shard/s98/sh/a93af185-e9a1-424e-9e35-9328f8701635/c7c67242e7fc02c585ce925a3dc3a1ec/deep/0/Screen-Shot-2015-04-18-at-11.40.48.png)
+![How I edit my Jekyll blog](https://www.evernote.com/shard/s98/sh/a93af185-e9a1-424e-9e35-9328f8701635/c7c67242e7fc02c585ce925a3dc3a1ec/deep/0/Screen-Shot-2015-04-18-at-11.40.48.png){: .img-responsive}
 
 _Screenshot of my editor, Atom.io_
 
