@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Host your websites with Docker on Digital Ocean"
+title:  "Docker Compose Tutorial and hosting on Digital Ocean"
 date:   2015-04-12 07:09:43
-categories: docker digitalocean
+categories: docker compose tutorial hosting digitalocean
 ---
 
 > Hosting with Docker on [Digital Ocean](http://goo.gl/idAtX4)
