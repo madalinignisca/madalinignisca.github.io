@@ -1,13 +1,13 @@
 # Site settings
-title: Gabriel Ignisca
-email: gabriel.ignisca@gmail.com
+title: Madalin Ignisca
+email: madalin.ignisca@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Ramblings by Gabriel Ignisca, a Romanian passionate Web Developer. Lives and works in UK for Digital Junkie Ltd.
+  Ramblings by Madalin Ignisca, a Romanian passionate Web Developer. Lives and works in UK for Numiko Ltd.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://madalinignisca.github.io" # the base hostname & protocol for your site
 twitter_username: 16nsk
 github_username:  16nsk
-company: Design Junkie Ltd
+company: Numiko Ltd
 
 # Build settings
 markdown: kramdown
