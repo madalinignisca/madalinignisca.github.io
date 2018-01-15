@@ -1,11 +1,11 @@
 {
-  "name": "16nsk.github.io",
+  "name": "madalinignisca.github.io",
   "version": "0.1.0",
-  "homepage": "http://www.gabe.me.uk/",
+  "homepage": "http://madalinignisca.github.io/",
   "authors": [
-    "Gabriel Ignisca <gabriel.ignisca@outlook.com>"
+    "Madalin Ignisca <madalin.ignisca@gmail.com>"
   ],
-  "description": "Gabe's personal blog",
+  "description": "Madalin's personal blog",
   "main": "index.html",
   "keywords": [
     "blogs"

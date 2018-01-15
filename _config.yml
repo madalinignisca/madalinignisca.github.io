@@ -2,12 +2,12 @@
 title: Madalin Ignisca
 email: madalin.ignisca@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Ramblings by Madalin Ignisca, a Romanian passionate Web Developer. Lives and works in UK for Numiko Ltd.
+  Ramblings by Madalin Ignisca, a Romanian passionate Web Developer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://madalinignisca.github.io" # the base hostname & protocol for your site
 twitter_username: 16nsk
-github_username:  16nsk
-company: Numiko Ltd
+github_username:  madalinignisca
+company: Cannot be disclosed...
 
 # Build settings
 markdown: kramdown
@@ -15,7 +15,7 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-gems:
+plugins:
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
