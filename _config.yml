@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://madalinignisca.github.io" # the base hostname & protocol for your site
 twitter_username: 16nsk
 github_username:  madalinignisca
-company: Cannot be disclosed...
+company: They would ... me if I disclose the name.
 
 # Build settings
 markdown: kramdown
