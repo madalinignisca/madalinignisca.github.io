@@ -16,6 +16,8 @@ kramdown:
   input: GFM
   enable_coderay: true
 
+highlighter: rouge
+
 plugins:
 - jekyll-mentions
 - jemoji

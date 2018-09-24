@@ -46,7 +46,7 @@ Create a new file `webpack.config.js`
 
 Let's put the initial configuration code:
 
-```js
+```javascript
 const path = require('path');
 
 module.exports = {
@@ -72,7 +72,7 @@ This will make sure to delete the`dist` folder each time a build is done.
 
 And edit webpack's configuration:
 
-```js
+```javascript
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 
@@ -99,7 +99,7 @@ to do that.
 
 Edit webpack's configuration:
 
-```js
+```javascript
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -130,7 +130,7 @@ setup.
 
 `npm install --save-dev file-loader`
 
-```js
+```javascript
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -171,7 +171,7 @@ server that automatically reloads the project when we save a file.
 
 And alter the configuration which should finally look like this:
 
-```js
+```javascript
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -209,7 +209,7 @@ module.exports = {
 
 Let's alter the `package.json` npm configuration file to add some **run** tasks:
 
-```json
+```javascripton
 {
   "name": "space-stars-chase",
   "version": "1.0.0",
@@ -254,7 +254,7 @@ The final structure should look similar to this:
 Paste in the `game.js` the source of the modified official tutorial and enjoy
 the game.
 
-```js
+```javascript
 const Phaser = require('phaser');
 
 /* Assets */

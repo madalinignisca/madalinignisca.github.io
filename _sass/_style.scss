@@ -1,17 +1,15 @@
 body { padding-top: 70px; }
 
-img.profile {
-    width: 256px;
-    max-width: 33%;
-    height: auto;
-    float: right;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .post-share {
-    ul {
-        list-style: none;
-    }
-    li {
-        display: inline-block;
-    }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
 }
