@@ -8,6 +8,7 @@ url: "https://madalinignisca.github.io" # the base hostname & protocol for your 
 twitter_username: 16nsk
 github_username:  madalinignisca
 company: They would ... me if I disclose the name.
+permalink: /:year/:month/:day/:title:output_ext
 
 # Build settings
 markdown: kramdown
