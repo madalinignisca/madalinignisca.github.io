@@ -1,6 +1,6 @@
 # Site settings
 title: Madalin dot me
-email: contact [at] madalin [dot] me
+email: contact@madalin.me
 description: > # this means to ignore newlines until "baseurl:"
   Ramblings by Madalin, a passionate Web Developer, possibly living on Mars.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -16,7 +16,7 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-highlighter: rouge
+theme: minima
 
 plugins:
 - jekyll-mentions
