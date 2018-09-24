@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting started with Phaser 3 using Webpack | part 1"
-date:   2018-02-09 19:00:00
+date:   2018-02-09 16:30:00
 categories: phaser, webpack, javascript
 ---
 [Phaser](https://phaser.io) is an **HTML5** gaming framework that allows you to
