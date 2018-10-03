@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting started with Mongoose, a beginner's perspective"
 date:   2017-12-22 03:43:00
-categories: Mongo, MongoDB, Mongoose, Object Database Mapper, ODM
+categories: [coding]
 ---
 <p><a href="https://mongoosejs.com/">Mongoose</a> is an <abbr title="Object Document Mapper">ODM</abbr> that takes away the complexity of all the code you'd have to think and write and that you realise that could be abstracted and reused between all pieces of Entities your application will require.</p>
 

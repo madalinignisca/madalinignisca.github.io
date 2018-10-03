@@ -2,7 +2,7 @@
 layout: post
 title:  "New Year's Resolutions 2018 edition"
 date:   2017-12-21 06:45:00
-categories: new-year-resolutions
+categories: [general]
 ---
 So there it ends another year and I'm deciding on my New Year's Resolutions 2018 list.
 

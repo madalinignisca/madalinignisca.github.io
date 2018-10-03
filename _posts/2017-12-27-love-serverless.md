@@ -2,7 +2,7 @@
 layout: post
 title:  "I discovered Serverless and I've fallen in love with the concept"
 date:   2017-12-27 08:10:00
-categories: serverless
+categories: [coding]
 ---
 <p>Over the last few days I started to read about <strong>Serverless</strong>.</p>
 

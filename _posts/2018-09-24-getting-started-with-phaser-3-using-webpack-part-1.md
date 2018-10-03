@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Getting started with Phaser 3 using Webpack | part 1"
-date:   2018-02-09 16:30:00
-categories: phaser, webpack, javascript
+date:   2018-09-24 16:30:00
+categories: [coding]
 ---
 [Phaser](https://phaser.io) is an **HTML5** gaming framework that allows you to
 build games deployable on the web, desktop and mobiles. As it's a **JavaScript**

@@ -2,7 +2,8 @@
 layout: post
 title:  "Hello Design Junkie , hello docker, hello openstack or openshift, hello cloud"
 date:   2015-03-15 18:00:00
-categories: job docker openstack opeshift cloud
+categories: [917]
+tags: [job]
 ---
 
 This month I started a new job as a web developer and devop at [Design Junkie Ltd](http://www.designjunkie.com/).
