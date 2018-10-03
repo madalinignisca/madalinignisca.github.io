@@ -14,6 +14,7 @@ But now things are changing, as I've found the job that would allow me to focus 
 
 And my New Year's Resolution 2018 list is:
 
+<ol>
 <li>Build an MVP for a web application (open source version):</li>
 <ul>
 <li>Must be <b>components based</b> - no monolithic big fat framework allowed</li>
