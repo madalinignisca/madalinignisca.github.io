@@ -12,8 +12,8 @@ flexibility to have more time for them, office work became something that feels 
 sense of good achievements.
 
 I do work for a company that offers great things for all the employes, but still, more I analyze things,
-make me realize how much I personaly loose for having to work a 9am to 5pm adding time spent commuting.
-That is a total of 11 hours. The more you think of it, the more you realize that is not acceptable.
+makes me realize how much I personaly loose for having to work a 9am to 5pm adding time spent commuting.
+That is a total of 11 hours. The more you think of it, the more I realize that is not acceptable.
 
 That's why I'm really looking forward in switching back either to work fully remote or either be open for an
 opportunity that would be really close to where as a family we decided it's in our best to live.
@@ -36,4 +36,8 @@ of us use cars, and we drive alone. We are a percentage of all people that are o
 cities. We polute, and we polute a lot. One way would be if goverments would be allowing/offering something for
 companies that put first remote work, this could help in reducing polution caused by us communiting.
 
+But the most important think is families. We should be a society that improves quality of life. Working in an office on
+job roles that can be done remote is just a blocker for evolution of a better society.
 
+We need to progress towards being able to dedicate more time for ourselves and our families and to supports all that are
+heading towards having a family.
