@@ -3,6 +3,9 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
+### Ruby ###
+vendor/
+
 ### Bower ###
 bower_components
 .bower-cache
