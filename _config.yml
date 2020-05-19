@@ -9,6 +9,7 @@ twitter_username: 16nsk
 github_username:  madalinignisca
 company: They would ... me if I disclose the name.
 permalink: ordinal
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
@@ -16,7 +17,20 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-theme: minima
+# theme: minima
+remote_theme: madalinignisca/plainwhite-jekyll@sitemap-main-lastmod
+
+plainwhite:
+  name: Madalin Ignisca
+  tagline: Cloud Engineer
+  date_format: "%b %-d, %Y"
+  dark_mode: true
+  sitemap: true
+
+  social_links:
+    twitter: 16nsk
+    github: madalinignisca
+    linkedIn: in/madalinignisca
 
 plugins:
 - jekyll-mentions
