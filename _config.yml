@@ -30,7 +30,7 @@ plainwhite:
   social_links:
     twitter: 16nsk
     github: madalinignisca
-    linkedIn: in/madalinignisca
+    linkedIn: in/ibuildwebapps
 
 plugins:
 - jekyll-mentions
