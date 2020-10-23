@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-######To continue...
