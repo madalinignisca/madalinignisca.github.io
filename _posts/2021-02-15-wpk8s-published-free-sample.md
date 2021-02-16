@@ -11,7 +11,7 @@ and use **WordPress on MicroK8s**.
 I managed to finish a few initial chapters, and published them as a
 free sample for anyone to dive in and get an idea of what's gonna cover.
 
-You can get the updated free sample from [Leanpub](http://bit.ly/wpk8s-leanpub).
+You can get the updated free sample from [Leanpub](https://bit.ly/wpk8s-leanpub).
 
 If you are interested, subscribe using the linked page, and I would really
 be grateful if you'd share a price you'd be willing to pay for such a book.
