@@ -20,12 +20,14 @@ kramdown:
 theme: minima
 
 minima:
+  date_format: "%b %-d, %Y"
   social_links:
     github: madalinignisca
     stackoverflow: 3303165
     linkedin: ibuildwebapps
     twitter: 16nsk
     youtube_channel: UC7HgClRI_kS3VtUTEIrk7HQ
+    youtube_channel_name: Learn with me!
     devto: madalinignisca
 
 disqus:
@@ -38,3 +40,5 @@ plugins:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
