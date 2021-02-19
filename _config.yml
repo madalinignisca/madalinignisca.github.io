@@ -22,19 +22,7 @@ theme: minima
 disqus:
   shortname: gabb3
 
-# remote_theme: madalinignisca/plainwhite-jekyll@sitemap-main-lastmod
-
-# plainwhite:
-#   name: Madalin Ignisca
-#   tagline: Cloud Engineer
-#   date_format: "%b %-d, %Y"
-#   dark_mode: true
-#   sitemap: true
-
-#   social_links:
-#     twitter: 16nsk
-#     github: madalinignisca
-#     linkedIn: in/ibuildwebapps
+google_analytics: UA-65558242-3
 
 plugins:
 - jekyll-mentions
