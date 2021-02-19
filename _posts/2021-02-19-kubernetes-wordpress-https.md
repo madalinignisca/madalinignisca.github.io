@@ -96,6 +96,38 @@ For the Ingress definition, all you need to do is add the annotation like:
 `cert-manager.io/cluster-issuer: letsencrypt-prod`. Use staging to test
 change to prod if all is ok for you.
 
+Here is an example for a basic service I use for healthcheck of my home
+server:
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: healthcheck-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+  - hosts:
+    - healthcheck.home.madalin.me
+    secretName: healthcheck-home-tls
+  rules:
+    - host: healthcheck.home.madalin.me
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: healthcheck
+                port:
+                  number: 8080
+```
+
+*The service can be any web server that responds with HTTP 200 and any
+content you wish*
+
 Major benefit: it will self renew the cert with 15 days before expiration.
 
 Also, you can use cert-manager to manage other types of certificates and
