@@ -1,5 +1,5 @@
 ---
-title: Let's encrypt certificates HTTPS with WordPress on MicroK8s
+title: Let's encrypt certificates, HTTPS on MicroK8s
 type: post
 date: 2021-02-19 13:30
 categories: wpk8s
