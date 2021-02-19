@@ -18,6 +18,10 @@ kramdown:
   enable_coderay: true
 
 theme: minima
+
+disqus:
+  shortname: gabb3
+
 # remote_theme: madalinignisca/plainwhite-jekyll@sitemap-main-lastmod
 
 # plainwhite:
