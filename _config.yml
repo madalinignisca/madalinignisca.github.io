@@ -19,6 +19,15 @@ kramdown:
 
 theme: minima
 
+minima:
+  social_links:
+    github: madalinignisca
+    stackoverflow: 3303165
+    linkedin: ibuildwebapps
+    twitter: 16nsk
+    youtube_channel: UC7HgClRI_kS3VtUTEIrk7HQ
+    devto: madalinignisca
+
 disqus:
   shortname: gabb3
 
