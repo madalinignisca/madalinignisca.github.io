@@ -100,3 +100,5 @@ Major benefit: it will self renew the cert with 15 days before expiration.
 
 Also, you can use cert-manager to manage other types of certificates and
 has some Cloudflare integration which I want to explore next.
+
+{% include wpk8s-book-promo.md %}
