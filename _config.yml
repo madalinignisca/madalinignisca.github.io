@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.madalin.me" # the base hostname & protocol for your site
 twitter_username: 16nsk
 github_username:  madalinignisca
-company: They would ... me if I disclose the name.
+company: MultiSafepay
 permalink: ordinal
 show_excerpts: true
 
@@ -17,20 +17,20 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-# theme: minima
-remote_theme: madalinignisca/plainwhite-jekyll@sitemap-main-lastmod
+theme: minima
+# remote_theme: madalinignisca/plainwhite-jekyll@sitemap-main-lastmod
 
-plainwhite:
-  name: Madalin Ignisca
-  tagline: Cloud Engineer
-  date_format: "%b %-d, %Y"
-  dark_mode: true
-  sitemap: true
+# plainwhite:
+#   name: Madalin Ignisca
+#   tagline: Cloud Engineer
+#   date_format: "%b %-d, %Y"
+#   dark_mode: true
+#   sitemap: true
 
-  social_links:
-    twitter: 16nsk
-    github: madalinignisca
-    linkedIn: in/ibuildwebapps
+#   social_links:
+#     twitter: 16nsk
+#     github: madalinignisca
+#     linkedIn: in/ibuildwebapps
 
 plugins:
 - jekyll-mentions
