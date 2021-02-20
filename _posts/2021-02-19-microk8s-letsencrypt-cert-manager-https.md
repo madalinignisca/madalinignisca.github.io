@@ -13,8 +13,8 @@ certificate for a real domain I use.
 First, examples from [cert-manager](https://cert-manager.io/docs/) did not
 work out of the box, but were perfect to get started.
 
-1st, MicroK8s by enabling dns and ingress addons, simply give you well
-configured Nginx controller and a compatible expected internal dns for
+1st, MicroK8s by enabling dns and ingress addons, simply will give you a well
+configured Nginx ingress controller and a compatible expected internal dns for
 WordPress necessary pods.
 
 To install cert-manager simply running:
