@@ -5,11 +5,14 @@ description: > # this means to ignore newlines until "baseurl:"
   Ramblings by Madalin, a passionate Web Developer, possibly living on Mars.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.madalin.me" # the base hostname & protocol for your site
-twitter_username: 16nsk
-github_username:  madalinignisca
-company: They would ... me if I disclose the name.
+company: MultiSafepay
 permalink: ordinal
 show_excerpts: true
+
+# socials
+twitter_username: 16nsk
+github_username:  madalinignisca
+linkedin_username: ibuildwebapps
 
 # Build settings
 markdown: kramdown
@@ -17,23 +20,28 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-# theme: minima
-remote_theme: madalinignisca/plainwhite-jekyll@sitemap-main-lastmod
+theme: minima
 
-plainwhite:
-  name: Madalin Ignisca
-  tagline: Cloud Engineer
+minima:
   date_format: "%b %-d, %Y"
-  dark_mode: true
-  sitemap: true
-
   social_links:
     twitter: 16nsk
     github: madalinignisca
-    linkedIn: in/ibuildwebapps
+    stackoverflow: 3303165
+    linkedin: ibuildwebapps
+    youtube_channel: UC7HgClRI_kS3VtUTEIrk7HQ
+    youtube_channel_name: Learn with me!
+    devto: madalinignisca
+
+disqus:
+  shortname: gabb3
+
+google_analytics: UA-65558242-3
 
 plugins:
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
