@@ -5,11 +5,14 @@ description: > # this means to ignore newlines until "baseurl:"
   Ramblings by Madalin, a passionate Web Developer, possibly living on Mars.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.madalin.me" # the base hostname & protocol for your site
-twitter_username: 16nsk
-github_username:  madalinignisca
 company: MultiSafepay
 permalink: ordinal
 show_excerpts: true
+
+# socials
+twitter_username: 16nsk
+github_username:  madalinignisca
+linkedin_username: ibuildwebapps
 
 # Build settings
 markdown: kramdown
@@ -22,10 +25,10 @@ theme: minima
 minima:
   date_format: "%b %-d, %Y"
   social_links:
+    twitter: 16nsk
     github: madalinignisca
     stackoverflow: 3303165
     linkedin: ibuildwebapps
-    twitter: 16nsk
     youtube_channel: UC7HgClRI_kS3VtUTEIrk7HQ
     youtube_channel_name: Learn with me!
     devto: madalinignisca
