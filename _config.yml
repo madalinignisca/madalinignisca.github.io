@@ -33,9 +33,6 @@ minima:
     youtube_channel_name: Learn with me!
     devto: madalinignisca
 
-disqus:
-  shortname: gabb3
-
 google_analytics: UA-65558242-3
 
 plugins:
