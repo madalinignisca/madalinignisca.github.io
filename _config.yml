@@ -18,7 +18,6 @@ linkedin_username: ibuildwebapps
 markdown: kramdown
 kramdown:
   input: GFM
-  enable_coderay: true
 
 theme: minima
 
@@ -42,3 +41,15 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-seo-tag
+- jekyll-spaceship
+
+jekyll-spaceship:
+  media-processor:
+    default:
+      id: 'media-{id}'
+      class: 'media'
+      width: '100%'
+      height: 'auto'
+      frameborder: 0
+      style: 'aspect-ratio: 16 / 9;'
+      allow: 'encrypted-media; picture-in-picture'
