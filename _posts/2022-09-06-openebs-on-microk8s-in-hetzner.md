@@ -1,7 +1,7 @@
 ---
 title: OpenEBS on MicroK8S on Hetzner
 type: post
-date: 2022-09-06 17:30
+date: 2022-09-06 7:30
 categories: wpk8s,openebs,microk8s,hetzner,cstor,jiva
 ---
 
