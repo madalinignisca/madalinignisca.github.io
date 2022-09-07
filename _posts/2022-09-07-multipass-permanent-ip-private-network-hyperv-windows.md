@@ -1,5 +1,5 @@
 ---
-title: How to: permanent private ip on Multipass on Windows with Hyper-V
+title: 'How to: permanent private ip on Multipass on Windows with Hyper-V'
 type: post
 date: 2022-09-07 7:30
 tags: multipass microk8s windows hyperv ubuntu kubernetes
