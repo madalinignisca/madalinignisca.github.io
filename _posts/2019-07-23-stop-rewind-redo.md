@@ -2,7 +2,7 @@
 layout: post
 title:  "Stop, rewind, redo"
 date:   2019-07-23 23:59:59
-categories: [personal-development]
+category: personal-development
 ---
 ## Continuous Improvement
 

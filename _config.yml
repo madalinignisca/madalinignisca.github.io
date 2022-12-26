@@ -8,6 +8,7 @@ url: "https://www.madalin.me" # the base hostname & protocol for your site
 company: MultiSafepay
 permalink: ordinal
 show_excerpts: true
+paginate: 5
 
 # socials
 twitter_username: 16nsk
@@ -35,13 +36,14 @@ minima:
 google_analytics: UA-65558242-3
 
 plugins:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
 - jekyll-feed
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-redirect-from
 - jekyll-seo-tag
+- jekyll-sitemap
 - jekyll-spaceship
+- jemoji
 
 jekyll-spaceship:
   media-processor:

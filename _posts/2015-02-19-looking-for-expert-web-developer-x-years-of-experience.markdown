@@ -2,8 +2,8 @@
 layout: post
 title:  "Looking for expert web developer with X years of experience"
 date:   2015-02-19 09:28:00
-categories: [opinion]
-tags: [funny]
+category: opinion
+tags: funny
 ---
 
 Since I've uploaded my CV online on a major UK's jobs site, the phone started to ring at least twice an hour.

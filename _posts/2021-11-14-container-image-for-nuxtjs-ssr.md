@@ -1,9 +1,9 @@
 ---
 title: Container image for NuxtJS SSR
-type: post
 date: 2021-11-14 08:30
 category: devops
 tags: nuxtjs containers kubernetes docker
+layout: post
 ---
 
 You found this article looking in how to make a NuxtJS SSR countainer image to run it either in a Kubernetes cluster or a Docker environment.

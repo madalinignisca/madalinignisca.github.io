@@ -57,6 +57,7 @@ build-iPhoneSimulator/
 _site/
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache/
 
 ### Bower ###
 bower_components

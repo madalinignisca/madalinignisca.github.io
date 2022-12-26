@@ -1,8 +1,8 @@
 ---
 title: High Available cluster chapter in WordPress on MicroK8s book
-type: post
 date: 2021-04-10 08:30
 categories: wpk8s
+layout: post
 ---
 
 _Later edit (2021-11-08): Time is really hard to obtain, when you are a parent with little kids. I shall keep my promise and continue the book, especially now as I need to come back to WordPress for a family business, and all shall be put on the same things I'm teaching in the book. A webshop that will be powered by WordPress with Woocommerce and integrated with Facebook ecommerce services._

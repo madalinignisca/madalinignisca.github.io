@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Publishing a blog using Jekyll"
-categories: [jekyll]
+categories: blogging
+tags: jekyll
 ---
 
 While many people prefer WordPress or other blog publishing platforms, I really enjoy simplicity and prefer to have a better option when it's about hosting a website.

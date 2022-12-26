@@ -1,9 +1,9 @@
 ---
 title: OpenEBS on MicroK8S on Hetzner
-type: post
 date: 2022-09-06 7:30
 tags: wpk8s openebs microk8s hetzner cstor jiva
 category: devops
+layout: post
 ---
 
 Last few months I experimented more and more with all [OpenEBS](https://openebs.io/) solutions that fit small Kubernetes cluster, using [MicroK8S](https://microk8s.io/) and [Hetzner Cloud](https://hetzner.cloud/?ref=Aj8JqsPS0zhy) for a real experience.

@@ -1,8 +1,8 @@
 ---
 title: Let's encrypt certificates, HTTPS on MicroK8s
-type: post
 date: 2021-02-19 13:30
 categories: wpk8s
+layout: post
 ---
 
 Took me two days, well, not full days, but two rounds of my 1h hour per

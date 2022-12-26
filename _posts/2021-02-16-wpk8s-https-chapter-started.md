@@ -1,8 +1,8 @@
 ---
 title: Started HTTPS chapter in WordPress on MicroK8s
-type: post
 date: 2021-02-16 07:00
 categories: wpk8s
+layout: post
 ---
 
 Spent one hour today, like I intend for most of the mornings to do when

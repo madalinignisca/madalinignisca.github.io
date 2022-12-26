@@ -2,7 +2,7 @@
 layout: post
 title:  "Living in UK"
 date:   2015-02-17 09:46:00
-categories: [life]
+category: life
 ---
 I moved last year in UK.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "From documentation to real projects there is a big gap"
 date:   2015-03-17 06:30:00
-categories: [coding]
+categories: coding
 ---
 
 There are many "php frameworks" for the programming languages that we use that

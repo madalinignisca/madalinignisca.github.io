@@ -2,7 +2,7 @@
 layout: post
 title:  "Maintaining inherited websites on different PHP frameworks, a business opportunity"
 date:   2015-08-18 06:50:00
-categories: [general]
+categories: general
 ---
 Not all of us are lucky to end up in startups that are building really awesome web/mobile applications.
 

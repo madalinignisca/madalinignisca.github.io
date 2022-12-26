@@ -2,7 +2,7 @@
 layout: post
 title:  "PHP Application Monitoring Providers"
 date:   2020-09-28 09:42:27
-categories: [php]
+category: php
 ---
 
 This weeks topic is on PHP APM (Application Monitoring) Providers, their features and pricing.

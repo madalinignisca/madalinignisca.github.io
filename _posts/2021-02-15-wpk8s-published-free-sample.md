@@ -1,8 +1,8 @@
 ---
 title: Published a free sample from WordPress on MicroK8s
-type: post
 date: 2021-02-15 07:00
 categories: wpk8s
+layout: post
 ---
 
 I started writing a few weeks ago a book, about how to host, manage

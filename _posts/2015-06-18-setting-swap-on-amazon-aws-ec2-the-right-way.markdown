@@ -2,7 +2,8 @@
 layout: post
 title:  "How to setup swap on Amazon AWS EC2 easy and the right way without tricks"
 date:   2015-06-18 10:00:00
-categories: [devops]
+categories: devops
+tags: aws swap linux
 ---
 
 I found a lot of articles and topics on this question, but none were like how I want to show you to create like on a normal Linux machine the necessary swap you need.

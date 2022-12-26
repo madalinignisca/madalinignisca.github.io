@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to download a file with Curl and limit download speed"
-categories: [tips]
+categories: tips
 ---
 When we share the internet connection we should respect the others when downloading files and limit our download speed.
 

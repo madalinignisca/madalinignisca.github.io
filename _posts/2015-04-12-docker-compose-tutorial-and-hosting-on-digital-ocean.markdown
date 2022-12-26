@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker Compose Tutorial and hosting on Digital Ocean"
 date:   2015-04-12 07:09:43
-categories: [devops]
+categories: devops
 ---
 
 > Hosting with Docker on [Digital Ocean](http://goo.gl/idAtX4)

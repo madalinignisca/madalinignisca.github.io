@@ -2,7 +2,7 @@
 layout: post
 title:  "How to write Etch components for Electron and Atom"
 date:   2018-02-09 12:53:00
-categories: [coding]
+categories: coding
 ---
 
 _Article in progress..._

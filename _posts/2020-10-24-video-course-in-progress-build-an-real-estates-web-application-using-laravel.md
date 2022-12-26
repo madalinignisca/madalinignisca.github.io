@@ -2,7 +2,8 @@
 layout: post
 title:  "Build a real estate agency web application - video course in progress"
 date:   2020-10-24 22:00:00
-categories: [laravel, courses]
+category: courses
+tags: laravel
 ---
 
 Project: Real estate agency web application with Listing management

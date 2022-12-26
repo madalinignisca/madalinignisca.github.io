@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How to change your Mac's name"
-categories: [tips]
+categories: tips
+tags: mac
 ---
 Open "System Preferences" using "Spotlight Search"
 

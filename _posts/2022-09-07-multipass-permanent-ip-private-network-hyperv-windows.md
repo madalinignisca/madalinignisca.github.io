@@ -1,9 +1,9 @@
 ---
 title: 'How to: permanent private ip on Multipass on Windows with Hyper-V'
-type: post
 date: 2022-09-07 7:30
 tags: multipass microk8s windows hyperv ubuntu kubernetes
 category: devops
+layout: post
 ---
 
 If you use [Multipass](https://multipass.run) on Windows with Hyper-V, when running MicroK8S or possible other services, you will notice that on restart of the instance or of the host, MicroK8S will not work for you.

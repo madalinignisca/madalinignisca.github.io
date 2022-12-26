@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to my website!"
 date:   2015-02-15 11:21:00
-categories: [general]
+category: general
 ---
 I'm so thrilled that you have found my website.
 

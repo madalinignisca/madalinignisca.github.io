@@ -1,14 +1,14 @@
 ---
 title: What's New in PhpStorm 2021.3
-type: post
 date: 2021-12-02 22:22
 category: programming
 tags: php phpstorm
+layout: post
 ---
 
-![](https://www.youtube.com/watch?v=NfGpGHNAalc&rel=0)
-
 PHP 8.1, better handling of generics in PHP, move classes with drag and drop, enhancements for deployment, HTTP client, and VCS integration.
+
+![Video](https://www.youtube.com/watch?v=NfGpGHNAalc&rel=0)
 
 Download at [https://www.jetbrains.com/phpstorm/wh...](https://blog.jetbrains.com/phpstorm/2021/12/phpstorm-2021-3-release/)
 
