@@ -2,8 +2,8 @@
 title: 'Golden Hour city photography'
 type: post
 date: 2023-01-27 10:30
-tags: saas roadmap business startup
-category: howto
+tags: questions answers photography
+category: q-and-a
 image: https://source.unsplash.com/l-GmdF7Md0o
 ---
 
