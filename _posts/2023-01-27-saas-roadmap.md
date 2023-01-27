@@ -1,7 +1,7 @@
 ---
 title: 'The roadmap for starting a SaaS business'
 type: post
-date: 2023-01-26 9:30
+date: 2023-01-27 9:30
 tags: saas roadmap business startup
 category: howto
 image: https://source.unsplash.com/v89zhr0iBFY
