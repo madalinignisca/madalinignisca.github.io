@@ -1,15 +1,15 @@
 ---
 title: 'The roadmap for starting a SaaS business'
 type: post
-date: 2023-01-26 12:30
+date: 2023-01-26 9:30
 tags: saas roadmap business startup
 category: howto
 image: https://source.unsplash.com/v89zhr0iBFY
 ---
 
-![Planning ahead through a kanban roadmap. Roadmap prioritization and planning.](https://source.unsplash.com/v89zhr0iBFY)
-
 _ChatGPT answered some questions I had about SaaS products_
+
+![Planning ahead through a kanban roadmap. Roadmap prioritization and planning.](https://source.unsplash.com/v89zhr0iBFY)
 
 ## What is SaaS?
 
