@@ -22,4 +22,4 @@ To develop a web application, you will need:
 1. Security: Knowing how to secure your web application, protect data, and prevent attacks is critical to web development.
 1. Testing and debugging skills: You need to have good testing and debugging skills to ensure the application works as expected and is free of errors or issues.
 
- What do you think? Twit your oppinion: https://twitter.com/16nsk/
+ What do you think? Twit your oppinion: [https://twitter.com/16nsk/](https://twitter.com/16nsk/status/1633793019978698753?s=61&t=j5oKpW8iw9HLOGOAEu0EbA)
