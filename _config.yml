@@ -32,7 +32,7 @@ minima:
     youtube_channel_name: Learn with me!
     devto: madalinignisca
 
-google_analytics: UA-65558242-3
+google_analytics: G-J3FTR7JVYW
 
 plugins:
 - jekyll-mentions
