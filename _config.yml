@@ -4,8 +4,8 @@ email: hi@madalin.me
 description: > # this means to ignore newlines until "baseurl:"
   Ramblings by Madalin, a passionate Web Developer, possibly living on Mars.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.madalin.me" # the base hostname & protocol for your site
-company: MultiSafepay
+url: "https://madalin.me" # the base hostname & protocol for your site
+company: Vlah Software House
 permalink: ordinal
 show_excerpts: true
 
