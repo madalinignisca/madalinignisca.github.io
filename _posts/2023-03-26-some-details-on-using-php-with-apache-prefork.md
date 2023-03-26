@@ -75,7 +75,7 @@ An example for a very small budget WordPress website, on 2GB ram, 2 vcpu:<br/>
 6. ListenBacklog to max 16 if your HTTP response is > 1s. Adjust depending on how fast are your responses from PHP (not cache)
 7. Set Mysql/MaridDB innodb_buffer_pool_size higher if you have loads of posts (10K+ articles or heavy commented blog) but don't allocate more than 768MB as it will take over 70% of ram.
 8. Move sessions to Memcached in php settings.
-9. Use any plugin that will set correctly HTTP cache headers so Varnish will serve instant cachable pages. Best might be you making a small plugin that controls cache headers.
+9. Use any plugin that will set correctly HTTP cache headers so Varnish will serve instant cachable pages. Best might be you making a small plugin that controls cache headers and triggers page purge on a page update or new comment on a post.
 
 All the above might need the hand of an experienced system engineer, but will make any WordPress website incredebly performant at a 5-10$ monthly hosting fee for a cloud server. Might be a good deal paying somebody a few hundreds to save thousands over next couple of years on expensive hosting.
 
