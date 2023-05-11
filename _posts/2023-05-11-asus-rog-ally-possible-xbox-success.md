@@ -4,6 +4,7 @@ type: post
 date: 2023-05-11 07:00
 tags: asus rog ally xbox microsoft openai
 category: gaming
+image: https://dlcdnwebimgs.asus.com/files/media/92A296C4-BA56-40C2-A462-AE2729261A0B/phase1/v1/images/large/2x/kv_ally_front.webp
 ---
 
 _This is an OpenAI generated article_
