@@ -11,7 +11,7 @@ Microsoft's Xbox brand has witnessed an impressive growth over the years, with t
 
 ![Asus ROG Ally front view](https://dlcdnwebimgs.asus.com/files/media/92A296C4-BA56-40C2-A462-AE2729261A0B/phase1/v1/images/large/2x/kv_ally_front.webp)
 
-![](https://www.youtube.com/watch?v=m_2L7xw_zGw)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/m_2L7xw_zGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The Asus ROG Ally: An Overview
 
