@@ -11,7 +11,7 @@ image: https://dlcdnwebimgs.asus.com/files/media/92A296C4-BA56-40C2-A462-AE27292
 
 _This is an OpenAI generated article_
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/m_2L7xw_zGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![](https://www.youtube.com/watch?v=m_2L7xw_zGw)
 
 Microsoft's Xbox brand has witnessed an impressive growth over the years, with the company striving to adapt and cater to all types of gamers. With Xbox Game Pass, Microsoft made gaming accessible to millions by offering a diverse catalog of games in a subscription service. Now, with the introduction of the new Asus ROG Ally, Microsoft is on the verge of taking another leap in grabbing a larger market share of gamers, thanks to the device's attractive features and compatibility with Xbox subscriptions.
 
