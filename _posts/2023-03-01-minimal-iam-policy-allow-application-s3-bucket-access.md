@@ -1,6 +1,6 @@
 ---
 title: 'The minimal AWS IAM policy for using a bucket with an application'
-type: post
+layout: post
 date: 2023-03-01 13:30
 tags: amazon aws iam policy bucket s3
 category: devops

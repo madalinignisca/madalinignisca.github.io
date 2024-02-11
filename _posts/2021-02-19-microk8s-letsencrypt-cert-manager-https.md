@@ -1,6 +1,6 @@
 ---
 title: Let's encrypt certificates, HTTPS on MicroK8s
-type: post
+layout: post
 date: 2021-02-19 13:30
 categories: wpk8s
 ---

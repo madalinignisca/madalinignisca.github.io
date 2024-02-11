@@ -1,6 +1,6 @@
 ---
 title: What's New in PhpStorm 2021.3
-type: post
+layout: post
 date: 2021-12-02 22:22
 category: programming
 tags: php phpstorm

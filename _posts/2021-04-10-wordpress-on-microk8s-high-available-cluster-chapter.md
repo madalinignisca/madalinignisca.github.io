@@ -1,6 +1,6 @@
 ---
 title: High Available cluster chapter in WordPress on MicroK8s book
-type: post
+layout: post
 date: 2021-04-10 08:30
 categories: wpk8s
 ---

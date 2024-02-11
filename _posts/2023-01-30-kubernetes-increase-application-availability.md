@@ -1,6 +1,6 @@
 ---
 title: 'Kubernetes helps businesses to increase availability of their websites and web applications'
-type: post
+layout: post
 date: 2023-01-30 9:30
 tags: kubernetes business website "web application"
 category: devops

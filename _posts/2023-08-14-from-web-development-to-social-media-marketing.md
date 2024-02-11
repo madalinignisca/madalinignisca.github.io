@@ -1,6 +1,6 @@
 ---
 title: "From Web Development to Social Media Marketing: Embracing Change"
-type: post
+layout: post
 date: 2023-08-14 07:00
 tags: marketing,social marketing,learning
 category: marketing

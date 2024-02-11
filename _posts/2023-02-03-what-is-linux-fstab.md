@@ -1,6 +1,6 @@
 ---
 title: 'Linux Fstab Explained'
-type: post
+layout: post
 date: 2023-02-03 19:30
 tags: linux filesystem fstab
 category: linux

@@ -1,6 +1,6 @@
 ---
 title: 'How to reset correct directories and files permissions recursive in linux'
-type: post
+layout: post
 date: 2023-03-01 13:30
 tags: linux files directories permissions recursive reset
 category: linux

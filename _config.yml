@@ -9,8 +9,13 @@ company: Vlah Software House
 permalink: ordinal
 show_excerpts: true
 
+header_pages:
+  - index.md
+  - books.md
+  - about.md
+
 # socials
-twitter_username: 16nsk
+twitter_username: madalinignisca
 github_username:  madalinignisca
 linkedin_username: ibuildwebapps
 

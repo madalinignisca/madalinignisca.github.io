@@ -1,6 +1,6 @@
 ---
 title: 'Golden Hour city photography'
-type: post
+layout: post
 date: 2023-01-27 10:30
 tags: questions answers photography
 category: q-and-a

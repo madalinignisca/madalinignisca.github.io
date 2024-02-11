@@ -1,6 +1,6 @@
 ---
 title: "The Asus ROG Ally and Microsoft's Path to Dominate the Gamers' Market: A Match Made in Gaming Heaven"
-type: post
+layout: post
 date: 2023-05-11 07:00
 tags: asus rog ally xbox microsoft openai
 category: gaming

@@ -1,6 +1,6 @@
 ---
 title: 'Wrong way to calculate paid interest rate | Failure of ChatGPT'
-type: post
+layout: post
 date: 2023-01-28 9:30
 tags: chatgpt code
 category: failures

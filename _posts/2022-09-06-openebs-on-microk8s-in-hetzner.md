@@ -1,6 +1,6 @@
 ---
 title: OpenEBS on MicroK8S on Hetzner
-type: post
+layout: post
 date: 2022-09-06 7:30
 tags: wpk8s openebs microk8s hetzner cstor jiva
 category: devops

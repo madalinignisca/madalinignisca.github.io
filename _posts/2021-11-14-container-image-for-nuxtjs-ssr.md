@@ -1,6 +1,6 @@
 ---
 title: Container image for NuxtJS SSR
-type: post
+layout: post
 date: 2021-11-14 08:30
 category: devops
 tags: nuxtjs containers kubernetes docker

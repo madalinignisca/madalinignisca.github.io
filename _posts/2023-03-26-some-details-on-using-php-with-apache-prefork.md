@@ -1,6 +1,6 @@
 ---
 title: 'How to configure Apache MPM Prefork with mod_php for performance and stability'
-type: post
+layout: post
 date: 2023-03-26 08:00
 tags: php apache prefork mod_php oom
 category: devops

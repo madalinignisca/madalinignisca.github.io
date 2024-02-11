@@ -1,6 +1,6 @@
 ---
 title: High Available Cluster for WordPress on MicroK8s
-type: post
+layout: post
 date: 2022-05-04 18:30
 categories: wpk8s
 ---

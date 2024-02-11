@@ -3,23 +3,6 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  <form action="https://tinyletter.com/16nsk" method="post" target="popupwindow"
-    onsubmit="window.open('https://tinyletter.com/16nsk', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-    <p>
-      <label for="tlemail"><strong>Subscribe to my newsletter: &nbsp;</strong></label>
-      <input type="text" name="email" id="tlemail" /> &nbsp;
-      <input type="hidden" value="1" name="embed" />
-      <input type="submit" value="Subscribe" />
-    </p>
-  </form>
-
-  <p>I promise that only new articles notifications or short letters on the topics will be sent.</p>
-  <p>Absolutly no promotions or advertising besides any resource I will personally publish or make available.</p>
-
   {{ content }}
 
   {%- if site.posts.size > 0 -%}

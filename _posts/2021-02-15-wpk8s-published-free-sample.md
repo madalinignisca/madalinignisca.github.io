@@ -1,6 +1,6 @@
 ---
 title: Published a free sample from WordPress on MicroK8s
-type: post
+layout: post
 date: 2021-02-15 07:00
 categories: wpk8s
 ---

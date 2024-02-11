@@ -1,6 +1,6 @@
 ---
 title: 'Is it OK to give RTFM to somebody not even trying to research before asking?'
-type: post
+layout: post
 date: 2023-01-26 12:30
 tags: questions answers rtfm
 category: q-and-a

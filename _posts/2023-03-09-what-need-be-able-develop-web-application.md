@@ -1,6 +1,6 @@
 ---
 title: 'What do I need to be able to develop a web application'
-type: post
+layout: post
 date: 2023-03-09 11:00
 tags: web application development qa
 category: q-and-a

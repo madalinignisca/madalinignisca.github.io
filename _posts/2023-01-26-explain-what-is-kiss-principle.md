@@ -1,6 +1,6 @@
 ---
 title: 'Explain me what is the KISS principle'
-type: post
+layout: post
 date: 2023-01-26 12:30
 tags: questions answers
 category: q-and-a
