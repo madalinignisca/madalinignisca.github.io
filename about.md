@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+last_modified_at: 2024-02-11 19:19
 ---
 
 My name is Madalin-Gabriel Ignisca.
