@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Chapter 1: Getting Started with Python"
-date:   2024-02-11 12:12:12
+last_modified_at: 2024-02-11 19:19
 ---
 - [Introduction to Programming and Python]({{ site.baseurl }}#introduction)
 - [Why Choose Python?]({{ site.baseurl }}#why)

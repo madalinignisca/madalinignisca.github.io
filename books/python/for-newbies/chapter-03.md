@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Chapter 2: Dive Into Data Types and Variables"
-date:   2024-02-11 16:16:16
+last_modified_at: 2024-02-11 19:19
 ---
 
 ## Understanding Variables and Identifiers

@@ -1,6 +1,7 @@
 ---
 title: Python for newbies
 layout: page
+last_modified_at: 2024-02-11 19:19
 ---
 
 **[Preface]({{ site.baseurl }}{% link books/python/for-newbies/preface.md %})**
