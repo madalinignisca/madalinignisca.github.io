@@ -9,7 +9,7 @@ last_modified_at: 2024-02-11 19:19
 
 ## About This Book {#about}
 
-Welcome to the exciting world of Python programming! Whether you're completely new to coding or looking to add a versatile and powerful language to your toolkit, "Python Essentials: Your First Steps into Programming" is designed with you in mind. Our goal is to make learning Python as straightforward and enjoyable as possible.
+Welcome to the exciting world of Python programming! Whether you're completely new to coding or looking to add a versatile and powerful language to your toolkit, "Python for newbies" is designed with you in mind. Our goal is to make learning Python as straightforward and enjoyable as possible.
 
 This book aims to introduce you to the basics of Python programming without any assumed prior knowledge. You'll start by understanding what programming is and why Python is such a great choice for beginners. From there, we will guide you through setting up your development environment so that you can write and run your very first lines of code.
 
@@ -19,7 +19,7 @@ One thing this book doesn't do is overwhelm you with complex jargon or dive into
 
 Instead of just reading about how things work though—get ready to get hands-on! At the end of each chapter are exercises designed not only test what was learned but also encourage tinkering and experimentation—the best way really learn how code works!
 
-By completing "Python Essentials: Your First Steps into Programming," not only will have gained a solid grounding in one today's most popular languages but also developed critical thinking skills that form basis all problem-solving tasks across various domains tech beyond!
+By completing "Python for newbies," not only will have gained a solid grounding in one today's most popular languages but also developed critical thinking skills that form basis all problem-solving tasks across various domains tech beyond!
 
 So open up page 1 let’s embark on journey together towards becoming confident proficient programmer!
 
