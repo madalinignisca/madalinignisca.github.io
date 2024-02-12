@@ -9,7 +9,7 @@ last_modified_at: 2024-02-11 19:19
 - [Who This Book Is For]({{ site.baseurl }}{% link books/python/for-newbies/preface.md %}#who)
 - [How to Use This Book]({{ site.baseurl }}{% link books/python/for-newbies/preface.md %}#how)
 
-**[Chapter 1]({{ site.baseurl }}{% link books/python/for-newbies/chapter-01.md %})**
+**[Chapter 1: Getting Started with Python]({{ site.baseurl }}{% link books/python/for-newbies/chapter-01.md %})**
 - [Introduction to Programming and Python]({{ site.baseurl }}{% link books/python/for-newbies/chapter-01.md %}#introduction)
 - [Why Choose Python?]({{ site.baseurl }}{% link books/python/for-newbies/chapter-01.md %}#why)
 - [A Brief History of Python]({{ site.baseurl }}{% link books/python/for-newbies/chapter-01.md %}#history)
@@ -19,7 +19,7 @@ last_modified_at: 2024-02-11 19:19
 - [Choosing a Text Editor or IDE]({{ site.baseurl }}{% link books/python/for-newbies/chapter-01.md %}#ide)
 - [Running Your First Python Script]({{ site.baseurl }}{% link books/python/for-newbies/chapter-01.md %}#script)
 
-**[Chapter 2]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %})**
+**[Chapter 2: Dive Into Data Types and Variables]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %})**
 - [Understanding Variables and Identifiers]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %}#understanding)
 - [Numbers]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %}#numbers)
 - [Strings]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %}#strings)
@@ -28,3 +28,11 @@ last_modified_at: 2024-02-11 19:19
 - [Sets]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %}#sets)
 - [Dictionaries]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %}#dictionaries)
 - [Type Conversion]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %}#conversion)
+
+**[Chapter 3: Controlling the Flow – Making Decisions and Repeating Actions]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %})**
+- [Conditional Statements]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#statements)
+- [The while loop]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#while)
+- [Mastering for loops]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#for)
+- [Exploring the range() Function]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#range)
+- [Managing Loop Execution with break, continue, and pass]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#break)
+- [Introducing Pattern Matching With match]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#match)

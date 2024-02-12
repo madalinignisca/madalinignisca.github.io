@@ -594,4 +594,5 @@ It's good practice use try-except blocks handle potential exceptions gracefully 
 Understanding how why perform necessary foundational skill develop early stages learning programming languages particularly ones dynamic typing system place python where certain amount flexibility allowed encouraged even though comes risks associated incorrect usage thereof! Moving forward next chapters explore more complex concepts continue build upon solid base knowledge acquired thus far journey becoming proficient coder awaits ahead...
 
 [Chapter 1]({{ site.baseurl }}{% link books/python/for-newbies/chapter-01.md %}) \|
-[TOC]({{ site.baseurl }}{% link books/python/for-newbies/index.md %})
+[TOC]({{ site.baseurl }}{% link books/python/for-newbies/index.md %}) \|
+[Chapter 3]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %})
