@@ -322,4 +322,5 @@ This advanced form of control flow allows for concise and readable conditions th
 Please note that while `match` statements offer powerful functionality for handling complex conditionals gracefully, they should be used judiciously—especially for beginners—as they introduce another layer of complexity to understanding program flow.
 
 [Chapter 2]({{ site.baseurl }}{% link books/python/for-newbies/chapter-02.md %}) \|
-[TOC]({{ site.baseurl }}{% link books/python/for-newbies/index.md %})
+[TOC]({{ site.baseurl }}{% link books/python/for-newbies/index.md %}) \|
+[Chapter 4]({{ site.baseurl }}{% link books/python/for-newbies/chapter-04.md %})

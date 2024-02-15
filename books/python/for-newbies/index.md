@@ -36,3 +36,9 @@ last_modified_at: 2024-02-11 19:19
 - [Exploring the range() Function]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#range)
 - [Managing Loop Execution with break, continue, and pass]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#break)
 - [Introducing Pattern Matching With match]({{ site.baseurl }}{% link books/python/for-newbies/chapter-03.md %}#match)
+
+**[Chapter 4: Functions – The Building Blocks of Reusable Code]({{ site.baseurl }}{% link books/python/for-newbies/chapter-04.md %})**
+- [Defining Functions]({{ site.baseurl }}{% link books/python/for-newbies/chapter-04.md %}#defining)
+- [Function Parameters and Return Values]({{ site.baseurl }}{% link books/python/for-newbies/chapter-04.md %}#params)
+- [Variable Scope]({{ site.baseurl }}{% link books/python/for-newbies/chapter-04.md %}#scope)
+- [Docstrings]({{ site.baseurl }}{% link books/python/for-newbies/chapter-04.md %}#docstrings)
