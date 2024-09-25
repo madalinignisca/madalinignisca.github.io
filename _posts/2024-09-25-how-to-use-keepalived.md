@@ -42,11 +42,132 @@ First, install on all nodes Keepalived: `apt install keepalived`
 
 Next, let's prepare the configuration. On each Postgresql node, add in order of nodes the following configurations. If you have only 1 primary and one replica, use the first 2 examples, if more then 3, adapt for 4th and others.
 
+Place this on 1st server in `/etc/keepalived/keepalived.conf`
 
+```ini
+vrrp_script chk_postgresql {
+    script "/etc/keepalived/check_postgresql.sh"
+    interval 5           # Check every 5 seconds
+    weight -75           # Decrease priority by 10 if PostgreSQL is unhealthy
+}
+
+vrrp_script chk_primary {
+    script "/etc/keepalived/check_primary.sh"
+    interval 5
+    weight -50
+}
+
+vrrp_instance VI_1 {
+    state MASTER                     # Node starts as Master
+    interface eth0                   # Network interface
+    virtual_router_id 100            # VRRP group identifier (must match Primary node)
+    priority 175                     # High priority for the master node
+    advert_int 1                     # Advertisement interval (in seconds)
+    virtual_ipaddress {
+        192.168.1.100                # This is the VIP that clients will connect to
+    }
+
+    track_script {
+        chk_postgresql               # Track the PostgreSQL script
+        chk_primary                  # check if we are replica and healthy
+    }
+
+    authentication {
+        auth_type PASS
+        auth_pass securepassword      # Simple password for VRRP (must match Primary node)
+    }
+
+    notify_master "/etc/keepalived/notify_master.sh"
+    notify_backup "/etc/keepalived/notify_backup.sh"
+    notify_fault  "/etc/keepalived/notify_fault.sh"
+}
+```
+
+Place this on 2nd server in `/etc/keepalived/keepalived.conf`
+
+```ini
+vrrp_script chk_postgresql {
+    script "/etc/keepalived/check_postgresql.sh"
+    interval 5           # Check every 5 seconds
+    weight -75           # Decrease priority by 10 if PostgreSQL is unhealthy
+}
+
+vrrp_script chk_primary {
+    script "/etc/keepalived/check_primary.sh"
+    interval 5
+    weight -50
+}
+
+vrrp_instance VI_1 {
+    state BACKUP                     # Node starts as Backup
+    interface eth0                   # Network interface
+    virtual_router_id 100            # VRRP group identifier (must match Primary node)
+    priority 150                     # High priority for the master node
+    advert_int 1                     # Advertisement interval (in seconds)
+    virtual_ipaddress {
+        192.168.1.100                # This is the VIP that clients will connect to
+    }
+
+    track_script {
+        chk_postgresql               # Track the PostgreSQL script
+        chk_primary                  # check if we are replica and healthy
+    }
+
+    authentication {
+        auth_type PASS
+        auth_pass securepassword      # Simple password for VRRP (must match Primary node)
+    }
+
+    notify_master "/etc/keepalived/notify_master.sh"
+    notify_backup "/etc/keepalived/notify_backup.sh"
+    notify_fault  "/etc/keepalived/notify_fault.sh"
+}
+```
+
+Place this on 3rd server in `/etc/keepalived/keepalived.conf`
+
+```ini
+vrrp_script chk_postgresql {
+    script "/etc/keepalived/check_postgresql.sh"
+    interval 5           # Check every 5 seconds
+    weight -75           # Decrease priority by 10 if PostgreSQL is unhealthy
+}
+
+vrrp_script chk_primary {
+    script "/etc/keepalived/check_primary.sh"
+    interval 5
+    weight -50
+}
+
+vrrp_instance VI_1 {
+    state BACKUP                     # Node starts as Backup
+    interface eth0                   # Network interface
+    virtual_router_id 100            # VRRP group identifier (must match Primary node)
+    priority 125                     # High priority for the master node
+    advert_int 1                     # Advertisement interval (in seconds)
+    virtual_ipaddress {
+        192.168.1.100                # This is the VIP that clients will connect to
+    }
+
+    track_script {
+        chk_postgresql               # Track the PostgreSQL script
+        chk_primary                  # check if we are replica and healthy
+    }
+
+    authentication {
+        auth_type PASS
+        auth_pass securepassword      # Simple password for VRRP (must match Primary node)
+    }
+
+    notify_master "/etc/keepalived/notify_master.sh"
+    notify_backup "/etc/keepalived/notify_backup.sh"
+    notify_fault  "/etc/keepalived/notify_fault.sh"
+}
+```
 
 Next let's add the check scripts.
 
-check_pg.sh:
+check_postgresql.sh:
 
 ```bash
 #!/bin/bash
@@ -86,6 +207,8 @@ else
 fi
 ```
 
+Place it in all nodes in `/etc/keepalived/` and run `chmod +x /etc/keepalived/check*` to make both executables.
+
 So, we will get penality if we are not primary. The script will return 1 also when check fails.
 
 Now, because we decided default MASTER and priorities, this values must be changed in such a way that healthy primary always has highest primary. The default, is our ideal case where server 1 would be healthy and primary, so a value of 175 sounds good. 
@@ -104,11 +227,11 @@ We have this other scripts, that we run depending on state.
 
 We want to run pgbouncer when the state is MASTER (will they rename state in the future from this ugly term?). But if we are not, we don't want pgbouncer to run.
 
-So let's take a pick at our 3 extra scripts:
+So let's take a pick at our 3 extra scripts and place them in `/etc/keepalived/` and run after `chmod +x /etc/keepalived/notify*`
 
 When a MASTER is promoted:
 
-run_master.sh
+notify_master.sh
 ```bash
 #!/bin/bash
 
@@ -122,7 +245,9 @@ echo "* = host=127.0.0.1 port=5432 auth_user=pgbouncer_auth_user" > /etc/pgbounc
 systemctl restart pgbouncer
 ```
 
-run_backup.sh
+When it becomes replica
+
+notify_backup.sh
 ```bash
 #!/bin/bash
 
@@ -133,7 +258,9 @@ logger "This node has become the BACKUP. Demoted to standby."
 systemctl stop pgbouncer
 ```
 
-run_fault.sh
+When something gets wrong
+
+notify_fault.sh
 ```bash
 #!/bin/bash
 
