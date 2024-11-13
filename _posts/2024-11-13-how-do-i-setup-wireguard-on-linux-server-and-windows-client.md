@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How do I setup Wireguard on a Debian or CentOS server and connect from Windows client?"
+title:  "How do I setup Wireguard on a Debian or Ubuntu server and connect from Windows client?"
 date:   2024-11-13 19:30:00
 categories: [howto]
 tags: [wireguard,windows,debian,ubuntu]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How do I setup Wireguard on a Debian or CentOS server and connect from MacOS client?"
+title:  "How do I setup Wireguard on a Debian or Ubuntu server and connect from MacOS client?"
 date:   2024-11-13 20:00:00
 categories: [howto]
 tags: [wireguard,macos,debian,ubuntu]
