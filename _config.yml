@@ -2,7 +2,7 @@
 title: Madalin dot me
 email: hi@madalin.me
 description: > # this means to ignore newlines until "baseurl:"
-  Ramblings by Madalin, a passionate Web Developer, possibly living on Mars.
+  Software developer and systems administrator. I code, I automate, I monitor. FOSS user.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.madalin.me" # the base hostname & protocol for your site
 company: Vlah Software House
