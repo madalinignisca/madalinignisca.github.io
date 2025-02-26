@@ -12,7 +12,7 @@ I have a passion for technology and web development.
 With more then 18 years of experience creating and maintaining complete online solutions with web technologies,
 building custom data driven web applications.
 
-On top of programming languages including PHP, Python, Go, JavaScript, database systems like MySQL, Mongo and Influxdb, message brokers like RabbitMQ, with my team, we can build custom solutions your business needs.
+On top of programming languages including PHP, Python, Go, JavaScript, database systems like MySQL, Mongo and Influxdb, message brokers like RabbitMQ, with my team, we can build custom solutions your business needs. On top, full monitoring using Grafana Stack, including cool business related charts to show them prowdly on large TVs.
 
 We are able to deliver small to medium sized projects, and provide monitoring, bugfixing, and iterating on adding / removing features.
 
