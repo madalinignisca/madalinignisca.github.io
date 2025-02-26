@@ -19,6 +19,9 @@ header_pages:
 twitter_username: madalinignisca
 github_username:  madalinignisca
 linkedin_username: madalinignisca
+mastodon:
+  - username: madalinignisca
+    instance: social.vivaldi.net
 
 # Build settings
 markdown: kramdown
@@ -37,7 +40,7 @@ minima:
     twitter: madalinignisca
     github: madalinignisca
     stackoverflow: 3303165
-    linkedin: ibuildwebapps
+    linkedin: madalinignisca
     youtube_channel: UC7HgClRI_kS3VtUTEIrk7HQ
     youtube_channel_name: Learn with me!
     devto: madalinignisca
