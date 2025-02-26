@@ -22,10 +22,4 @@ We are also proud to setup everything with High Availabilty setups and fast reco
 
 If you have the idea and finances for the next cool thing, I can bring the technical brain for it, including additional people required for.
 
-You may find me on different social networks or other websites, usually using the nickname **{{ site.twitter_username }}**.
-
-- <a href="https://twitter.com/{{ site.twitter_username }}" title="Madalin's Twitter profile">Twitter</a>
-- <a href="https://github.com/{{ site.github_username }}" title="Madalin's Github profile">Github</a>
-- <a href="https://linkedin.com/in/{{ site.linkedin_username }}" title="Madalin's Linkedin profile">Linkedin</a>
-
 This website was generated using <a href="http://jekyllrb.com" title="Jekyll, static website generator">Jekyll</a>.
