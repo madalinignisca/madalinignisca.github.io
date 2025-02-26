@@ -16,9 +16,9 @@ header_pages:
   - contact.md
 
 # socials
-twitter_username: madalinignisca
-github_username:  madalinignisca
-linkedin_username: madalinignisca
+# github_username:  madalinignisca
+codeberg_username: madalin
+#linkedin_username: madalinignisca
 mastodon:
   - username: madalinignisca
     instance: social.vivaldi.net
