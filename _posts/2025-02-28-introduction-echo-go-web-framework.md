@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to the Echo Web Framework in Go"
-date:   2025-02-28 01:00:00
+date:   2025-02-28 00:00:00
 categories: ["programming"]
 tags: ["go", "web frameworks", "echo"]
 ---
