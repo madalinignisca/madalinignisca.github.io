@@ -6,8 +6,6 @@ categories: ["programming"]
 tags: ["go", "web frameworks", "gin"]
 ---
 
-## Introduction to Gin Web Framework in Go
-
 Gin is a high-performance HTTP web framework written in Go (Golang) that is designed with efficiency and ease of use in mind. As a lightweight framework, Gin leverages Go's native concurrency features and HTTP capabilities to deliver faster response times and improved scalability. It is well-suited for building RESTful APIs, web services, and applications that require a robust, low-latency backend.
 
 ### Key Features and Advantages
