@@ -6,8 +6,6 @@ categories: ["programming"]
 tags: ["js", "web frameworks", "vue", "testing", "playwright", "e2e"]
 ---
 
-![3 Gladiators](/images/2025/03/3-gladiators.png)
-
 Playwright is an open-source, end-to-end testing framework developed by Microsoft. It’s designed to automate web browsers and is used to write tests that simulate real user interactions with web applications. Here are some key points about Playwright:
 
 1. **Cross-Browser Testing:**  
