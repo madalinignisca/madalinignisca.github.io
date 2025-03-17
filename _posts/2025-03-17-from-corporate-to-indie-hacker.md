@@ -93,4 +93,4 @@ So, here’s to the indie hackers, the dreamers, and the rebels. May your coffee
 
 ---
 
-**Got questions about the indie-hacker life? Drop them in the comments on Mastodon! And if you’re on your own journey, share your story—I’d love to hear it.** 💬
+**Got questions about the indie-hacker life? Drop them in the comments on [Mastodon](https://social.vivaldi.net/@madalinignisca/114176773285039952)! And if you’re on your own journey, share your story—I’d love to hear it.** 💬
