@@ -6,7 +6,7 @@ categories: ["fiction"]
 tags: ["indie", "hacker", "quit my job", "ai generated"]
 ---
 
-# I Quit My Job to Pursue the Indie-Hacker Dream: A Rollercoaster of Chaos, Coffee, and Code ☕💻
+![A man walking away from an office building](/images/2025/03/img-LCeu1KKkxw3do6TTGpqm1qCa.png)
 
 Let me paint you a picture: It’s 2:37 AM. I’m sitting in my pajamas, surrounded by empty coffee cups, a half-eaten bag of stale Doritos, and a laptop that’s threatening to overheat. My cat, Sir Fluffington III, is judging me from the corner of the room. Why? Because I quit my cushy 9-to-5 job to become an indie hacker. And let me tell you, it’s been a wild ride. 🎢
 
